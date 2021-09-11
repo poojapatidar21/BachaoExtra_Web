@@ -7,6 +7,10 @@ body {
     color: #444444;
 }
 
+p {
+    font-size: 1.1em;
+}
+
 a {
     color: #47b2e4;
     text-decoration: none;
@@ -870,6 +874,13 @@ section {
     opacity: 1;
 }
 
+.portfolio-img {
+    border-radius: 15px;
+    box-shadow: rgba(124, 94, 94, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; */
+    margin: 15px;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -946,7 +957,7 @@ section {
     position: relative;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     background: #fff;
     transition: 0.5s;
 }
