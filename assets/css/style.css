@@ -965,6 +965,7 @@ section {
     overflow: hidden;
     width: 180px;
     border-radius: 50%;
+    border: 1px solid rgb(42, 144, 202);
 }
 
 .team .member .pic img {
